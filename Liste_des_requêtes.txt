@@ -64,12 +64,7 @@ Requête:
       Limit 10
 
 
-
-
-
-
-
-8. Quelle est la note moyenne sur l’ensemble des boissons?
+- 8. Quelle est la note moyenne sur l’ensemble des boissons?
 Requête:
 select round(avg(r.note),2) as note_moyenne_boissons
 from retour_client r
